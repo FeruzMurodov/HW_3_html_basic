@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.main {
+  padding-top: 40px;
+  margin-bottom: 162px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 84px;
+}
+
+.header_logo {
+}
+
+.navigation {
+  padding-top: 11px;
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* I had to add this property myself */
+}
+
+.nav_link {
+  font-family: Gilroy-SemiBold, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  line-height: 16.41px;
+}
+
+.unique {
+  color: #f25822;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.content {
+}
+.content-title {
+  max-width: 522px;
+  font-family: Gilroy-Bold, sans-serif;
+  line-height: 70.31px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 60px;
+  color: #000;
+  margin-bottom: 17px;
+}
+
+.content-text {
+  font-family: Gilroy-Medium, sans-serif;
+  line-height: 23.44px;
+  text-align: left;
+  max-width: 466px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 37px;
+}
+
+.content-btn-box {
+  max-width: 302px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-start-btn {
+  font-family: Gilroy-Bold, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 50px;
+  width: 140px;
+  height: 50px;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
+}
+
+.content-watch-btn {
+  font-family: Gilroy-Bold, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #aaa;
+  width: 140px;
+  height: 50px;
+  background: #fff;
+}
+
+.img {
+  max-width: 610px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 97px;
+  padding-bottom: 96px;
+}
